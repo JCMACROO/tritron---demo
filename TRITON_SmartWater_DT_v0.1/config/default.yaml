@@ -1,0 +1,21 @@
+project:
+  name: TRITON Smart Water Digital Twin Prototype
+  version: 0.1.0
+simulation:
+  duration_hours: 168
+  timestep_hours: 1
+  required_pressure_m: 20.0
+  pump_efficiency: 0.75
+sensors:
+  pressure_nodes: ["101", "109", "111", "113", "197"]
+scenarios:
+  event_start_hour: 72
+  event_end_hour: 120
+  leak_node: "113"
+  leak_diameter_mm: 14.0
+  spoof_node: "111"
+  spoof_bias_m: 15.0
+  close_pipe: "225"
+ai:
+  contamination: 0.05
+  random_state: 42

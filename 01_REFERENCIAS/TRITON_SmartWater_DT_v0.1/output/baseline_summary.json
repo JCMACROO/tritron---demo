@@ -1,0 +1,28 @@
+{
+  "scenario": "baseline",
+  "backend": "lite",
+  "metadata": {
+    "source_model": "EPANET Net3-derived reduced demonstrator",
+    "hydraulic_fidelity": "proxy / non-EPANET"
+  },
+  "metrics": {
+    "mean_pressure_m": 66.44071302589525,
+    "minimum_pressure_m": 34.137599992114865,
+    "service_availability_pct": 100.0,
+    "demand_service_pct": 100.0,
+    "low_pressure_node_hours": 0.0,
+    "delivered_water_m3": 34802.46909605423,
+    "requested_water_m3": 34802.46909605423,
+    "leak_volume_m3": 0.0,
+    "pump_energy_kwh": 3544.6206066885547,
+    "telemetry_physics_residual_rmse_m": 0.0,
+    "anomaly_precision": 0.0,
+    "anomaly_recall": 0.0,
+    "anomaly_f1": 0.0,
+    "false_positive_rate": 0.04142011834319527,
+    "anomaly_detection_rate": 0.0,
+    "physics_consistency_rmse_m": 0.0,
+    "counterfactual_residual_rmse_m": 0.0,
+    "labelled_event_samples": 0
+  }
+}

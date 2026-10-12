@@ -1,0 +1,28 @@
+{
+  "scenario": "pipe_closure",
+  "backend": "lite",
+  "metadata": {
+    "source_model": "EPANET Net3-derived reduced demonstrator",
+    "hydraulic_fidelity": "proxy / non-EPANET"
+  },
+  "metrics": {
+    "mean_pressure_m": 64.4735743188644,
+    "minimum_pressure_m": 0.0,
+    "service_availability_pct": 97.15976331360947,
+    "demand_service_pct": 99.50338733428781,
+    "low_pressure_node_hours": 48.0,
+    "delivered_water_m3": 34629.63562654265,
+    "requested_water_m3": 34802.46909605423,
+    "leak_volume_m3": 0.0,
+    "pump_energy_kwh": 3527.017571804294,
+    "telemetry_physics_residual_rmse_m": 0.0,
+    "anomaly_precision": 0.9056603773584906,
+    "anomaly_recall": 1.0,
+    "anomaly_f1": 0.9504950495049505,
+    "false_positive_rate": 0.04132231404958678,
+    "anomaly_detection_rate": 1.0,
+    "physics_consistency_rmse_m": 0.0,
+    "counterfactual_residual_rmse_m": 37.210212138850316,
+    "labelled_event_samples": 48
+  }
+}

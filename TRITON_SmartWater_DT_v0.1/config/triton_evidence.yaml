@@ -1,0 +1,26 @@
+# Adapter de evidencia para TRITON.
+# Deliberadamente NO asigna nombres semánticos a CI01..CI10, SO01..SO08 o AI01..AI08
+# hasta incorporar la taxonomía canónica de TRITON.
+cybersecurity_evidence:
+  - telemetry_physics_residual_rmse_m
+  - anomaly_detection_rate
+  - false_positive_rate
+  - attacked_sensor_count
+  - affected_service_node_hours
+sustainability_evidence:
+  - leak_volume_m3
+  - delivered_water_m3
+  - service_availability_pct
+  - low_pressure_node_hours
+  - pump_energy_kwh
+ai_evidence:
+  - anomaly_f1
+  - anomaly_precision
+  - anomaly_recall
+  - physics_consistency_rmse_m
+  - counterfactual_residual_rmse_m
+  - labelled_event_samples
+triton_placeholders:
+  cybersecurity: [CI01, CI02, CI03, CI04, CI05, CI06, CI07, CI08, CI09, CI10]
+  sustainability: [SO01, SO02, SO03, SO04, SO05, SO06, SO07, SO08]
+  ai: [AI01, AI02, AI03, AI04, AI05, AI06, AI07, AI08]
